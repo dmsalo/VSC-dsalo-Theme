@@ -1,0 +1,46 @@
+{
+  "name": "dsalo-vsc-theme",
+  "displayName": "dsalo-vsc-theme",
+  "description": "easy reading themes",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+
+  "readme": "README.md",
+	"author": {
+		"name": "Denis Salomon"
+	},
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"bugs": {
+		"url": "https://github.com/dmsalo/VSC-dsalo-Theme/issues",
+		"email": "dmsalomonr@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dmsalo/VSC-dsalo-Theme.git"
+	},
+	"homepage": "https://github.com/dmsalo/VSC-dsalo-Theme",
+	"qna": "https://github.com/dmsalo/VSC-dsalo-Theme/issues",
+	"keywords": [
+		"C",
+		"C++",
+		"PHP",
+		"HTML",
+		"Theme",
+		"Themes"
+	],
+
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dsalo theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dsalo theme-color-theme.json"
+      }
+    ]
+  }
+}
