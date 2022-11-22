@@ -14,7 +14,7 @@ The `dsalo-vscode-theme` is a useful color theme that helps you code and develop
 
 
 
-!["How it looks like"](https://github.com/dmsalo/VSC-dsalo-Theme/tree/main/assets/dsalo-theme.jpg)
+!["How it looks like"](https://github.com/dmsalo/VSC-dsalo-Theme/raw/HEAD/assets/dsalo-theme.jpg)
 
 
 ## For more information
@@ -32,8 +32,8 @@ Before install, be sure you are downloaded the package, unzip and locate the VSI
 2. Click on the up-right corner "..." (Views and more actions).
 3. Select "Install from VSIX", and choose where VSIX file were located.
 
-    ![<img src="https://github.com/dmsalo/VSC-dsalo-Theme/tree/main/assets/how_install.jpg" width="400"/>]
-
+    <img src="https://github.com/dmsalo/VSC-dsalo-Theme/raw/HEAD/assets/how_install.jpg" width="400"/>
+    
 ## Manual installation using cmd / Windows PowerShell.
 
 1. Locate and open the folder containing the VSIX file.
