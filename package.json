@@ -1,11 +1,17 @@
 {
   "name": "dsalo-vsc-theme",
   "displayName": "dsalo-vsc-theme",
-  "description": "easy reading themes",
+  "description": "UI theme for easy reading code",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.73.0"
   },
+	"publisher": "dsalomon",
+	"preview": false,
+
+	"icon": "assets/dsalo_sof.png",
+
+
 
   "readme": "README.md",
 	"author": {
@@ -37,9 +43,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "dsalo theme",
+        "label": "Dark dsalo theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/dsalo theme-color-theme.json"
+        "path": "./themes/dsalo_dark_theme.jsonc"
       }
     ]
   }
