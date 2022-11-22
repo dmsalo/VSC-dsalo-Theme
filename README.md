@@ -10,7 +10,7 @@ The `dsalo-vscode-theme` is a useful color theme that helps you code and develop
 * Easy to read and color-coded identification make work faster and more efficient.
  
 
-**Tested with C/C++, php, HTML, JS, SQL and more**
+**Tested with C/C++, php, HTML, JS, SQL and more...**
 
 
 
@@ -23,7 +23,7 @@ The `dsalo-vscode-theme` is a useful color theme that helps you code and develop
 
 ---
 # Installation
->This extension is not yet been placed on the VS Code marketplace.
+>Note: This extension is not yet been placed on the VS Code marketplace.
 
 ## Installation using VSCode interface.
 Before install, be sure you are downloaded the package, unzip and locate the VSIX file.
