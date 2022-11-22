@@ -2,7 +2,7 @@
 
 ## Description  
 
-The `dsalo-vscode-theme` is a useful color theme that helps you code and develop code for C/C++, Arduino, PHP, HTML, JS, SQL, JSON and more with beautiful colors to make your code easier to understand. read.
+The `dsalo-vscode-theme` is a useful color theme that helps you code and develop code for C/C++, Arduino, PHP, HTML, JS, SQL, JSON and more with beautiful colors to make your code easier to read.
 
 ## Features
 * As a main feature, it has been designed for use in `dark mode`.
@@ -19,7 +19,7 @@ The `dsalo-vscode-theme` is a useful color theme that helps you code and develop
 
 ## For more information
 
-* [Write to Support](email:dmsalomonr@gmail.com)
+* [Write me](mailto:dmsalomonr@gmail.com "mailto Denis Salomon")
 
 ---
 # Installation
