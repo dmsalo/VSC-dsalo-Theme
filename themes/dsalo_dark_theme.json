@@ -1,10 +1,47 @@
 {
 	"name": "dsalo theme",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
+		/*"editor.background": "#263238",
+		"editor.foreground": "#eeffff",*/
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		
+		// --------------  DS Customs 
+		"editorCursor.background": "#000000",
+		"editorCursor.foreground": "#FF0B00",
+
+		"editor.background": "#100e0e", // "#100e0e", //#"1a1616" //"#0e1010", 
+		"editor.foreground": "#ccc", // ffffff color letra
+		"toolbar.hoverBackground": "#ff1d1d",
+
+		"editorLineNumber.foreground": "#00ffea79", // "#00ffea79",
+
+		"sideBar.background": "#111010",
+		"sideBar.foreground": "#b4c1cef1",//"#a4e6d2", // barra tree 
+		"list.hoverForeground": "#99ff14",
+		"list.hoverBackground": "#FF0B00",
+
+		"statusBar.background": "#292828bd",
+		"statusBar.foreground": "#ffffff",  /* color letras */
+
+		"activityBar.background": "#001608ec",
+		"activityBar.foreground": "#c8ff00",   
+
+		"selection.background": "#ee33338e",
+		"editor.selectionHighlightBackground": "#5b9ca59f", //"#5b9ca59f"
+		"editor.selectionBackground": "#c72121b9", //"#237fb45b",
+		"editor.lineHighlightBackground": "#88ff000c",
+
+		"editorIndentGuide.activeBackground": "#00ccff7c", // color de lineas de identacion
+		"editorIndentGuide.background": "#4b525131",
+
+		"scrollbarSlider.background": "#00f7ff7e",
+
+		"editorWidget.border":"#ffffff85",
+		"editorWidget.background":"#000000",
+
+		"contrastBorder": "#4745459d",  // bordecillo de contornos.
+		
 	},
 	"tokenColors": [
 		{
@@ -123,7 +160,7 @@
 		},
 
 
-    {
+    		{
 			"name": "Definition, Access.cpp",
 			"scope": [
 				"meta.body.function",
@@ -781,6 +818,27 @@
     //    }
     //},
     //*** /
+		
+    {
+      "scope":"storage.type.built-in.primitive.cpp", // especial JS, function, var 
+      "settings": {
+        "foreground": "#6089B4", "fontStyle": "bold"  // "#c2650f"
+      }
+    },
+
+    // { "foreground": "#D30102", "fontStyle": "bold" }  meta.preprocessor
+    {
+      "scope":"keyword.control.directive.include.cpp", // especial JS, function, var 
+      "settings": {
+        "foreground": "#D30102", "fontStyle": "bold" 
+      }
+    },
+    {
+      "scope":"keyword.control.directive.define.cpp", // especial JS, function, var 
+      "settings": {
+        "foreground": "#8080FFD3", "fontStyle": "bold" 
+      }
+    },
 
 
     // --------  HTML ---------
