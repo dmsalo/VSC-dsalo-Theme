@@ -45,7 +45,7 @@
       {
         "label": "Dark dsalo theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/dsalo_dark_theme.jsonc"
+        "path": "./themes/dsalo_dark_theme.json"
       }
     ]
   }
