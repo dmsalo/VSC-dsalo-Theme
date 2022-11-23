@@ -34,7 +34,8 @@
 		"PHP",
 		"HTML",
 		"Theme",
-		"Themes"
+		"Themes",
+		"Code"
 	],
 
   "categories": [
@@ -46,6 +47,11 @@
         "label": "Dark dsalo theme",
         "uiTheme": "vs-dark",
         "path": "./themes/dsalo_dark_theme.json"
+      },
+      {
+        "label": "Dark dsalo lc theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dsalo_dark_lc_theme.json"
       }
     ]
   }
