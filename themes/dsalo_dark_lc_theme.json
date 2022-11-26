@@ -679,7 +679,20 @@
 				"foreground": "#EEFFFF"
 			}
 		},
-
+		
+		// BATCH files conf
+		{
+			"scope":"keyword.command.rem.batchfile",  // SQL  -PHP declaraciones campos
+			"settings": {
+				"foreground": "#55E430" //"#8080FF",  c8ff00d2   ff0d00d0 
+			}
+		},
+		{
+			"scope":"variable.other.readwrite.batchfile",  // SQL  -PHP declaraciones campos
+			"settings": {
+				"foreground": "#e63e14" //"#8080FF",  c8ff00d2   ff0d00d0 
+			}
+		},
 
     {
       "scope":"variable.other.php",  // Especiales $_SESSION, $_POST
@@ -821,14 +834,7 @@
     //},
     //*** /
 
-    {
-      "scope":"storage.type.built-in.primitive.cpp", // especial JS, function, var 
-      "settings": {
-        "foreground": "#6089B4", "fontStyle": "bold"  // "#c2650f"
-      }
-    },
-
-    // { "foreground": "#D30102", "fontStyle": "bold" }  meta.preprocessor
+// { "foreground": "#D30102", "fontStyle": "bold" }  meta.preprocessor
     {
       "scope":"keyword.control.directive.include.cpp", // especial JS, function, var 
       "settings": {
@@ -841,6 +847,54 @@
         "foreground": "#8080FFD3", "fontStyle": "bold" 
       }
     },
+
+
+    {
+      "scope": [
+        "keyword.control.directive.define.cpp",
+        "keyword.control.directive.undef.cpp",
+        "keyword.control.directive.endif.cpp",
+        "keyword.control.directive.elif.cpp",
+        "keyword.control.directive.else.cpp",
+        "keyword.control.directive.line.cpp",
+        "keyword.control.directive.diagnostic.error.cpp",
+        "keyword.control.directive.conditional.if.cpp",
+        "keyword.control.directive.conditional.ifdef.cpp",
+        "keyword.control.directive.conditional.ifndef.cpp"
+      ],
+      "settings": {
+        "foreground": "#d3d011" // best strong yellow "#faf614", "fontStyle": "bold" // "foreground": "#10be8a" // "#8080FFD3"
+      }
+    },
+    {
+      "scope":"keyword.control.directive.include.cpp", // especial JS, function, var 
+      "settings": {
+        "foreground": "#ee3434", "fontStyle": "bold"  //"#1c2aad" //, "fontStyle": "bold"  // "#c2650f"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.preprocessor.cpp"
+      ],
+      "settings": {
+        "foreground": "#ecebb3" //"#8080FF",  c8ff00d2   ff0d00d0   E4F38E eeedad
+      }
+    },
+    {
+      "scope":"storage.type.built-in.primitive.cpp", // especial JS, function, var 
+      "settings": {
+        "foreground": "#1290C3" //"#1c2aad" //, "fontStyle": "bold"  // "#c2650f"
+      }
+    },
+    {
+      "scope": [
+        "meta.bracket.square.access"
+      ],
+      "settings": {
+        "foreground": "#faf614" //"#8080FF",  c8ff00d2   ff0d00d0   E4F38E eeedad
+      }
+    },
+
 
 
     // --------  HTML ---------
