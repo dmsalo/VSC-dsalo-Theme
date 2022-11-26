@@ -8,6 +8,7 @@ The `dsalo-vscode-theme` is a useful color theme developed for use in **Visual S
 * As a main feature, it has been designed for use in `dark mode`.
 * Color balance for long hours of work.
 * Easy-to-read, color-coded identification makes work faster and more efficient.
+* There are two modes, default for `high contrast` when using small fonts, and lc for `less contrast` used with more light.
  
 
 **Tested with C/C++, php, HTML, JS, SQL and more...**
@@ -23,9 +24,10 @@ The `dsalo-vscode-theme` is a useful color theme developed for use in **Visual S
 
 ---
 # Installation
->Note: This extension is not yet been placed on the VS Code marketplace.
+Using VS Code - Extensions, in search type `dsalo-vsc-theme`.
+>Install this extension from VS Code marketplace.
 
-## Installation using VSCode interface.
+## Installation from local using VSCode interface.
 Before install, be sure you are downloaded the package, unzip and locate the VSIX file.
 
 1. In Visual Studio Code, Click in Extesions button.
@@ -36,8 +38,9 @@ Before install, be sure you are downloaded the package, unzip and locate the VSI
     
 ## Manual installation using cmd / Windows PowerShell.
 
-1. Locate and open the folder containing the VSIX file.
-2. Run the following command usign cmd or PowerShell:
+1. Download the package and unzip.
+2. Locate and open the folder containing the VSIX file.
+3. Run the following command usign cmd or PowerShell:
   
    `code --install-extension /path/to/dsalo-vsc-theme-1.0.0.vsix`
 
@@ -49,7 +52,7 @@ Before install, be sure you are downloaded the package, unzip and locate the VSI
 * You may need to reload VSC and check if the theme is selected.<BR>
 Sometimes there are settings that can change its appearance.<BR>
 
-* To verify for selected theme: 
+* To verify for selected theme or change mode: 
   >File -> Preferences -> Color Theme.
 
 * The `Dark dsalo theme` is recomended for high contrast (low light level) and `Dark dsalo lc theme` is for less contrast.
