@@ -1,9 +1,10 @@
 # Change Log
 
-All notable changes to the "dsalo-vsc-theme" extension will be documented in this file.
+## Changes to the "dsalo-vsc-theme" extension.
+---
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.0.0 
+Initial release published in VS Code Marketplace 23.11.2022
 
-## [Unreleased]
-
-- Initial release
+## 1.0.1
+Add features for Markdown, Batch, C/C++.
