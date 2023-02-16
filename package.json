@@ -2,42 +2,37 @@
   "name": "dsalo-vsc-theme",
   "displayName": "dsalo-vsc-theme",
   "description": "UI theme for easy reading code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.73.0"
   },
-	"publisher": "dsalomon",
-	"preview": false,
-
-	"icon": "assets/dsalo_sof.png",
-
-
-
+  "publisher": "dsalomon",
+  "preview": false,
+  "icon": "assets/dsalo_sof.png",
   "readme": "README.md",
-	"author": {
-		"name": "Denis Salomon"
-	},
-	"license": "SEE LICENSE IN LICENSE.txt",
-	"bugs": {
-		"url": "https://github.com/dmsalo/VSC-dsalo-Theme/issues",
-		"email": "dmsalomonr@gmail.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/dmsalo/VSC-dsalo-Theme.git"
-	},
-	"homepage": "https://github.com/dmsalo/VSC-dsalo-Theme",
-	"qna": "https://github.com/dmsalo/VSC-dsalo-Theme/issues",
-	"keywords": [
-		"C",
-		"C++",
-		"PHP",
-		"HTML",
-		"Theme",
-		"Themes",
-		"Code"
-	],
-
+  "author": {
+    "name": "Denis Salomon"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/dmsalo/VSC-dsalo-Theme/issues",
+    "email": "dmsalomonr@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmsalo/VSC-dsalo-Theme.git"
+  },
+  "homepage": "https://github.com/dmsalo/VSC-dsalo-Theme",
+  "qna": "https://github.com/dmsalo/VSC-dsalo-Theme/issues",
+  "keywords": [
+    "C",
+    "C++",
+    "PHP",
+    "HTML",
+    "Theme",
+    "Themes",
+    "Code"
+  ],
   "categories": [
     "Themes"
   ],
