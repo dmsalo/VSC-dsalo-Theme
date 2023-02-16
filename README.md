@@ -2,7 +2,7 @@
 
 ## Description  
 
-The `dsalo-vscode-theme` is a useful color theme developed for use in **Visual Studio Code** that helps you with the code for C/C++, Arduino, PHP, HTML, JS, SQL, JSON and more with beautiful colors to make it easier to read and develop.
+The `dsalo-vscode-theme` is a useful color theme developed for use in **Visual Studio Code** that helps you with the code for C/C++, Arduino, PHP, HTML, JS, SQL, JSON, Dart and more with beautiful colors to make it easier to read and develop.
 
 ## Features
 * As a main feature, it has been designed for use in `dark mode`.
