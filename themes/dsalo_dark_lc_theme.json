@@ -679,20 +679,21 @@
 				"foreground": "#EEFFFF"
 			}
 		},
-		
-		// BATCH files conf
-		{
-			"scope":"keyword.command.rem.batchfile",  // SQL  -PHP declaraciones campos
-			"settings": {
-				"foreground": "#55E430" //"#8080FF",  c8ff00d2   ff0d00d0 
-			}
-		},
-		{
-			"scope":"variable.other.readwrite.batchfile",  // SQL  -PHP declaraciones campos
-			"settings": {
-				"foreground": "#e63e14" //"#8080FF",  c8ff00d2   ff0d00d0 
-			}
-		},
+
+    // BATCH files conf
+    {
+      "scope":"keyword.command.rem.batchfile",  // SQL  -PHP declaraciones campos
+      "settings": {
+        "foreground": "#55E430" //"#8080FF",  c8ff00d2   ff0d00d0 
+      }
+    },
+    {
+      "scope":"variable.other.readwrite.batchfile",  // SQL  -PHP declaraciones campos
+      "settings": {
+        "foreground": "#e63e14" //"#8080FF",  c8ff00d2   ff0d00d0 
+      }
+    },
+
 
     {
       "scope":"variable.other.php",  // Especiales $_SESSION, $_POST
@@ -834,7 +835,7 @@
     //},
     //*** /
 
-// { "foreground": "#D30102", "fontStyle": "bold" }  meta.preprocessor
+    // { "foreground": "#D30102", "fontStyle": "bold" }  meta.preprocessor
     {
       "scope":"keyword.control.directive.include.cpp", // especial JS, function, var 
       "settings": {
@@ -895,6 +896,70 @@
       }
     },
 
+    //----------- C -----------
+    {
+      "scope":["variable.object.c", "meta.function-call.c"],
+      "settings": {
+        "foreground": "#f7f7f7d2", // "#c8ff00c9" bonito verde DS 
+        //"fontStyle": "italic",
+      }
+    },
+    {
+      "scope":["variable.parameter.probably.c"],
+      "settings": {
+        "foreground": "#F78C6C", // "#c8ff00c9" bonito verde DS 
+        //"fontStyle": "italic",
+      }
+    },
+    {
+      "scope":"constant.character.escape.c",
+      "settings": {
+        "foreground": "#61F080", //"#3bffded2", // "#c8ff00c9" bonito verde DS 
+        "fontStyle": "italic",
+      }
+    },
+    {
+      "scope":"keyword.control.directive.include.c",
+      "settings": {
+        "foreground": "#ff3e3e", "fontStyle": "bold"
+      }
+    },
+    {
+      "scope":["keyword.control.directive.ifndef.c", "keyword.control.directive.define.c",
+              "keyword.control.directive.undef.c", "keyword.control.directive.conditional.c"],
+      "settings": {
+        "foreground": "#c4c11f", // "#D3D011",
+      }
+    },
+    {
+      "scope":"entity.name.function.c",
+      "settings": {
+        "foreground": "#c9c612", //"#D3D011", //"#5187fcec", // "#c8ff00c9" bonito verde DS 
+        "fontStyle": "bold",
+      }
+    },
+    {
+      "scope":["keyword.control.c", "keyword.control.switch.c"],
+      "settings": {
+        "foreground": "#ff3e3e",
+        //"fontStyle": "italic",
+      }
+    },
+    {
+      "scope":["keyword.control.case.c",
+                "keyword.control.default.c"],
+      "settings": {
+        "foreground": "#f78b26", //"#5187fcec", // "#c8ff00c9" bonito verde DS 
+        //"fontStyle": "italic",
+      }
+    },
+    {
+      "scope":["storage.type.struct.c", "storage.type.union.c"],
+      "settings": {
+        "foreground": "#ef3af5e5", // "#3d85f0d2"
+        //"fontStyle": "italic",
+      }
+    },
 
 
     // --------  HTML ---------
@@ -1072,11 +1137,52 @@
       "settings": {
         "foreground": "#5DB0E6" //"#8080FF",  c8ff00d2   ff0d00d0 
       }
+    },
+    // BATCH files conf
+    {
+      "scope":"keyword.command.rem.batchfile",
+      "settings": {
+        "foreground": "#55E430" //"#8080FF",  c8ff00d2   ff0d00d0 
+      }
+    },
+    //--------------- DART ----------------
+    {
+      "scope":"entity.name.function.dart",
+      "settings": {
+        "foreground": "#1cb1d6", "fontStyle": "bold"
+      }
+    },
+    {
+      "scope":"keyword.declaration.dart",
+      "settings": {
+        "foreground": "#60eb1f", "fontStyle": "bold" 
+      }
+    },
+    {
+      "scope":"support.class.dart",
+      "settings": {
+        "foreground": "#22B192", "fontStyle": "bold"
+      }
+    },
+    {
+      "scope":"storage.type.primitive.dart",
+      "settings": {
+        "foreground": "#d6e41d", "fontStyle": "bold"
+      }
+    },
+    {
+      "scope":"keyword.control.dart",
+      "settings": {
+        "foreground": "#f71b1b", "fontStyle": "bold"
+      }
+    },
+
+    {
+      "scope":"storage.type.annotation.dart",
+      "settings": {
+        "foreground": "#ec6d18"
+      }
     }
-    
-  
-  
- 
 
 
 	]
